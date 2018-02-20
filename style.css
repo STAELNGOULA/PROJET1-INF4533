@@ -1,0 +1,239 @@
+body {
+  font-family: 'Lucida Calligraphy', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color:#EFF8FB ;
+  font-size: 13px;
+  text-align: center;
+  background-repeat: no-repeat ;
+  margin:0;
+
+}
+
+/* Logo et titre*/
+
+#tete{
+
+  margin-left :-1800px;
+  position: relative;
+}
+#tete p{
+
+  margin-top: -50px; 
+  margin-left: 320px;
+  color : white;
+  font-weight: bold;
+  font-size: 15px;
+}
+header{
+  background-color: #2E9AFE;
+  margin-top:0px;
+  border:1px solid ;
+  height:80px;
+  border: 0.5px solid white;
+  box-shadow: 0px 2px 1px white;
+
+}
+
+/* Searche bar*/
+
+#search {
+  margin-left:1350px;
+  width: 100px;margin-top: 20px;
+  margin-top: -50px;
+}
+
+#search input[type="text"] {
+  background: white no-repeat 10px 6px #444;
+  border: 0 none;
+  font: bold 12px Arial,Helvetica,Sans-serif;
+  color: black;
+  width: 390px;
+  height: 35px;
+  padding: 6px 15px 6px 35px;
+  border-radius: 20px;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  transition: all 0.7s ease 0s;
+}
+
+#search input[type="text"]:hover {
+  width: 500px;
+  box-shadow: 2px 7px 6px white;
+}
+#search input[type="text"]:focus {
+  width: 500px;
+  box-shadow: 2px 7px 6px blue;
+}
+
+
+
+#aside{
+
+  border:;
+  float: left;
+  width :440px;
+  height:845px;
+  background-color: #EFF8FB ;
+  box-shadow: 2px;
+  margin-top: 20px;
+}
+
+
+
+/* Corps */
+#main{
+  border: 1px solid #A9E2F3;
+  float: right;
+  width :1415px;
+  height:927px;
+  margin-right: 9px;
+  box-shadow: 2px 2px 7px #A9F5F2;
+  background-color: white;
+  margin-top: 20px;
+
+}
+
+footer{
+
+  border: 1px solid red;
+  float: ;
+  margin-top: 951px;
+  width :1895px;
+  height:105px;
+  margin-right: px;
+  box-shadow: 2px 2px 7px #A9F5F2;
+  background-color: #2E9AFE;
+  color: white;
+  font-weight: bold;
+
+}
+
+
+/* Aside : Menu; */
+aside ul li {
+  text-align:center;
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-left: -40px;
+  position: relative;
+  padding: 15px 60px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  color:black;
+  width: 352px;
+}
+aside ul li:hover {
+  background: #2E9AFE;
+  color: white;
+  text-decoration: blink;
+  padding: ;
+}
+aside ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 200px;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  font-family: 'Lucida Calligraphy', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+aside ul li ul li { 
+  background-color: white;
+  width: 390px;
+  display: block; 
+  color: black;
+  text-shadow: 0 -1px 0 #000;
+}
+#deroulant { 
+  color: black;
+  text-decoration: none;
+
+}
+aside ul li ul li:hover {
+ background:#2E9AFE;
+ color:white;
+ width: 392px;
+}
+
+aside ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+a{
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+
+  /* 
+ Table
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 60px;
+
+  }
+  #table{
+
+font-family: Arial, Helvetica, sans-serif;
+  }
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+
+  }
+  th { 
+    background: #2E9AFE; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+
+  }
+
+
+
+/* Recherche */
+form{
+  position: absolute;
+  margin-top: -50px;
+}
+  #searchtable {
+    margin-left:0px;
+    width: 100px;margin-top: 0px;
+    margin-top: 0px;
+  }
+
+  #searchtable input[type="text"] {
+    background: white no-repeat 10px 6px #444;
+    border: 2px solid black;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: black;
+    border-radius: 10px;
+    width: 490px;
+    height: 35px;
+    padding: 6px 15px 6px 35px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    transition: all 0.7s ease 0s;
+  }
+
+  #searchtable input[type="text"]:hover {
+    width: 500px;
+    box-shadow: 2px 7px 6px white;
+  }
+  #searchtable input[type="text"]:focus {
+    width: 500px;
+    box-shadow: 2px 7px 6px #2E9AFE;
+  }
