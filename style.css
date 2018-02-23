@@ -4,7 +4,9 @@ body {
   font-size: 13px;
   text-align: center;
   background-repeat: no-repeat ;
-  margin:0;
+width: 1600px;
+
+ margin-left: 180px;
 
 }
 
@@ -12,7 +14,7 @@ body {
 
 #tete{
 
-  margin-left :-1800px;
+  margin-left :-1400px;
   position: relative;
 }
 #tete p{
@@ -36,7 +38,7 @@ header{
 /* Searche bar*/
 
 #search {
-  margin-left:1350px;
+  margin-left:1050px;
   width: 100px;margin-top: 20px;
   margin-top: -50px;
 }
@@ -70,11 +72,12 @@ header{
 
   border:;
   float: left;
-  width :440px;
+  width :370px;
   height:845px;
   background-color: #EFF8FB ;
   box-shadow: 2px;
   margin-top: 20px;
+
 }
 
 
@@ -83,7 +86,7 @@ header{
 #main{
   border: 1px solid #A9E2F3;
   float: right;
-  width :1415px;
+  width :1215px;
   height:927px;
   margin-right: 9px;
   box-shadow: 2px 2px 7px #A9F5F2;
@@ -97,7 +100,7 @@ footer{
   border: 1px solid red;
   float: ;
   margin-top: 951px;
-  width :1895px;
+  width :1600px;
   height:105px;
   margin-right: px;
   box-shadow: 2px 2px 7px #A9F5F2;
@@ -120,12 +123,12 @@ aside ul li {
   cursor: pointer;
   transition: all 0.2s;
   color:black;
-  width: 352px;
+  width: 249px;
 }
 aside ul li:hover {
   background: #2E9AFE;
   color: white;
-  text-decoration: blink;
+  text-decoration: none;
   padding: ;
 }
 aside ul li ul {
@@ -133,7 +136,7 @@ aside ul li ul {
   position: absolute;
   top: 48px;
   left: 0;
-  width: 200px;
+
   box-shadow: none;
   display: none;
   opacity: 0;
@@ -143,7 +146,7 @@ aside ul li ul {
 }
 aside ul li ul li { 
   background-color: white;
-  width: 390px;
+  width: 290px;
   display: block; 
   color: black;
   text-shadow: 0 -1px 0 #000;
@@ -156,7 +159,7 @@ aside ul li ul li {
 aside ul li ul li:hover {
  background:#2E9AFE;
  color:white;
- width: 392px;
+
 }
 
 aside ul li:hover ul {
@@ -237,3 +240,56 @@ form{
     width: 500px;
     box-shadow: 2px 7px 6px #2E9AFE;
   }
+
+
+  #ajouter{
+
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 400px;
+  }
+  #ajouter input{
+
+    width: 200px;
+  }
+
+
+@media screen and (min-width:000px) {
+main{ font-size:110%; 
+width: 200px;
+}
+
+}
+@media screen and (min-width:1400px) {
+aside{
+ padding:20 15%;
+width: 100px;
+  } /* Reduce the container width */
+}
+
+
+
+#write{
+
+border :1px solid;
+background-color: #EFF8FB ;
+position: absolute;
+margin-top: 20px;
+margin-left: -600px;
+
+
+
+
+
+}
+
+#send{
+margin-top: 90px;
+font-size: 25px;
+margin-left: 290px;
+}
+
+#imput{
+width: 500px;
+}
