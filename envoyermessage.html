@@ -1,78 +1,83 @@
-<!DOCTYPE html>
-<html>
-<head>
-  
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!DOCTYPE html>
+          <html>
+          <head>
+            
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- <title>MESSAGERIE</title>
- <link rel="stylesheet" media="screen" type="text/css"title="stylesheets" href="style.css" />
-</head>
-<body>
- <header>
-
-
-  <div id="tete">
+           <title>MESSAGERIE</title>
+           <link rel="stylesheet" media="screen" type="text/css"title="stylesheets" href="style.css" />
+          </head>
+          <body>
+           <header>
 
 
-   <img src="M1.png" width="150" height="80">
-   <p>TITLE DU SITE</p>
-
-  </div>
+            <div id="tete">
 
 
-  <form method="get" action="" id="search">
+             <img src="M1.png" width="150" height="80">
+             <p>TITLE DU SITE</p>
 
-   <input name="q" type="text" size="40" placeholder="Search..." />  
-
-  </form>
- </header>
+            </div>
 
 
- <aside id="aside">
-  <ul>
-   <li><a href="accueil.html">INBOX</li> 
-   </ul>
+            <form method="get" action="" id="search">
+
+             <input name="q" type="text" size="40" placeholder="Search..." />  
+
+            </form>
+           </header>
 
 
-   <ul>
-
-    <li><a href="envoyer.html">SEND</li>  
-
-    </ul>
-
-    <ul>
-     <li>
-      CONTACT
-      <ul>
-       <li><a href="contact.html" id="deroulant">LISTE DES CONTACTS</li> 
-        <li><a href="ajouter.html" id="deroulant">AJOUTER</li>         
-        </ul>
-       </li>
-      </ul>
-     </aside>
+           <aside id="aside">
+            <ul>
+             <li><a href="courriel.html">INBOX</a></li> 
+             </ul>
 
 
+             <ul>
 
-     <section id="main">
+              <li><a href="envoyer.html">SEND</a></li>  
 
-      <div id="send">
-          
-<FORM>
-  
-<LABEL>Username</LABEL>
-<input type="text" name="" id="imput"/><br><br>
-<label>Message</label>
-<TEXTAREA name="positive" rows=10 COLS=40></TEXTAREA> 
-<input type="submit" name="" id="button">
-<input type="reset" name="" id="button">
-</FORM>
-      </div>
-     </section>
-     <footer>
-      <p>Copyright 2018</p>
+              </ul>
 
-     </footer>
-    </body>
-    </html>
+              <ul>
+               <li>
+                CONTACT
+                <ul>
+                 <li><a href="contact.html" id="deroulant">LISTE DES CONTACTS</a></li> 
+                  <li><a href="ajouter.html" id="deroulant">AJOUTER</a></li>         
+                  </ul>
+                 </li>
+                </ul>
+               </aside>
+
+
+
+               <section id="main">
+
+                <div id="send">
+                    
+          <form >
+          <LABEL>Nom utilisateur  </LABEL><br>
+          <input type="text" name="" id="imput"   value="Cliquez ici !" onfocus="this.value='Entrer votre nom utilisateur!.';" onblur="this.value='Cliquez ici !';"//><br><br>
+
+          <label>Message </label><br>
+          <TEXTAREA name="positive" rows=15 COLS=70></TEXTAREA> <br><br>
+
+          <input type="submit" name="" id="button">
+          <input type="reset" name="" id="button">
+          </form>
+                </div>
+               </section>
+
+
+
+
+               <footer>
+                <p>Copyright 2018</p>
+
+               </footer>
+              </body>
+              </html>
 
 
