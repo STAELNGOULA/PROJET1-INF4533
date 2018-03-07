@@ -1,343 +1,58 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>MESSAGERIE</title>
- <link rel="stylesheet" media="screen" type="text/css"title="stylesheets" href="style.css" />
-
-
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Messagerie</title>
+	<link rel="stylesheet" media="screen" type="text/css"title="stylesheets" href="courriel.css" />
+	<script type="text/javascript" src="courriel.js"></script>
 </head>
+
 <body>
- <header>
+	<!--Nsotha Tchato Gaël Patrick
+		Ngoula Tedongmo Stael
+		Bamba Daouda  -->
+    <!--En tête, qui contient le logo et le nom de notre application-->
+	<header id="header">
+		<div id="logo">
+		<img src="logo.png" width="80" height="80">
+		<span>Supchat</span>
 
+		 <form method="get" action="/search" id="search"  name=search ">
 
-  <div id="tete">
-
-
-   <img src="M1.png" width="150" height="80">
-   <p>TITLE DU SITE</p>
-
-  </div>
-
-
-  <form method="get" action="/search" id="search"  name="search"onsubmit="return findInPage(this.string.value);">
-
-   <input name="q" type="text" size="40" placeholder="Search..."  name="string"
-    onchange="n = 0;" />  
-
-
-
-
-
-
-
-
-
-
-
-
-
+   <input name="q" type="text" size="40" placeholder="Search..." />  
 
   </form>
- </header>
-
-
- <aside id="aside">
-  <ul>
-   <a href="courriel.html"><li>INBOX</li> </a>
-   </ul>
-
-   <ul>
-
-    <a href="envoyer.html"><li>SENT</li></a>  
-
-    </ul>
-
-    <ul>
-     <li>
-      CONTACT
-      <ul>
-       <li><a href="contact.html" id="deroulant">LISTE DES CONTACTS</a></li> 
-        <li><a href="ajouter.html" id="deroulant">AJOUTER<a</li>         
-        </ul>
-       </li>
-      </ul>
-
-
-
-
-     </aside>
-
-
-
-     <section id="main">
-
-
-<a href="" id="write" >Ecrire un nouveau message</a>
-<a href="" id="write2" >Supprimer un message</a>
-
-
-
-
-
-
-      <div id="">
-                       <table id="tablen">
-                        <tr>
-                            <th>Nom du message</th>
-                            <th>Objet</th>
-                            <th>Date</th>
-
-                        </tr>
-                        <tr>
-                            <td>IBM</td>
-                            <td>Activation du compte</td>
-                            <td>
-                          7h06 AM
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>Directeur</td>
-                            <td>5 nouvelles offres du 23-02-2018 - Étudiant temps partiel, Gatineau, QC</td>
-                            <td>
-                       22 Fevrier 2018
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>Gestionnaire</td>
-                            <td> 
-                              30+ nouveaux emplois Job Etudiant - Hull, QC</td>
-                            <td>            
-                       22 Fevrier 2018
-                            </td>
-                               
-
-                        </tr>
-
-                        <tr>
-                            <td>IBRAHIM</td>
-                            <td>iBRAHIM@GMAIL.COM</td>
-                            <td>
-                              21 Fevrier 2018
-                            </td>
-
-
-
-                        </tr>
-
-                        </tr>
-                        <tr>
-                            <td>IBM</td>
-                            <td>Activation du compte</td>
-                            <td>
-                           23 fevrier 2018
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>Patrick</td>
-                            <td>5 nouvelles offres du 23-02-2018 - Étudiant temps partiel, Gatineau, QC</td>
-                            <td>
-                       22 Fevrier 2018
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>Barnave</td>
-                            <td> 
-                              30+ nouveaux emplois Job Etudiant - Hull, QC</td>
-                            <td>            
-                       22 Fevrier 2018
-                            </td>
-                               
-
-                        </tr>
-
-                        <tr>
-                            <td>IBRAHIM</td>
-                            <td>iBRAHIM@GMAIL.COM</td>
-                            <td>
-                              21 Fevrier 2018
-                            </td>
-
-                          
-
-                        </tr>
-
-                        </tr>
-                        <tr>
-                            <td>Sam Neri</td>
-                            <td>Activation du compte</td>
-                            <td>
-                           23 fevrier 2018
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>Jooble</td>
-                            <td>5 nouvelles offres du 23-02-2018 - Étudiant temps partiel, Gatineau, QC</td>
-                            <td>
-                       22 Fevrier 2018
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>Daouda</td>
-                            <td> 
-                              30+ nouveaux emplois Job Etudiant - Hull, QC</td>
-                            <td>            
-                       22 Fevrier 2018
-                            </td>
-                               
-
-                        </tr>
-
-                        <tr>
-                            <td>IBRAHIM</td>
-                            <td>iBRAHIM@GMAIL.COM</td>
-                            <td>
-                              21 Fevrier 2018
-                            </td>
-
-                        <tr>
-                            <td>IBM</td>
-                            <td>Activation du compte</td>
-                            <td>
-                          21 Fervier
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>Directeur</td>
-                            <td>5 nouvelles offres du 23-02-2018 - Étudiant temps partiel, Gatineau, QC</td>
-                            <td>
-                       22 Fevrier 2018
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>Gestionnaire</td>
-                            <td> 
-                              30+ nouveaux emplois Job Etudiant - Hull, QC</td>
-                            <td>            
-                       22 Fevrier 2018
-                            </td>
-                               
-
-                        </tr>
-
-                        <tr>
-                            <td>IBRAHIM</td>
-                            <td>iBRAHIM@GMAIL.COM</td>
-                            <td>
-                              21 Fevrier 2018
-                            </td>
-
-
-
-                        </tr>
-
-                        </tr>
-                        <tr>
-                            <td>IBM</td>
-                            <td>Activation du compte</td>
-                            <td>
-                           23 fevrier 2018
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>Patrick</td>
-                            <td>5 nouvelles offres du 23-02-2018 - Étudiant temps partiel, Gatineau, QC</td>
-                            <td>
-                       22 Fevrier 2018
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>Barnave</td>
-                            <td> 
-                              30+ nouveaux emplois Job Etudiant - Hull, QC</td>
-                            <td>            
-                       22 Fevrier 2018
-                            </td>
-                               
-
-                        </tr>
-
-                        <tr>
-                            <td>IBRAHIM</td>
-                            <td>iBRAHIM@GMAIL.COM</td>
-                            <td>
-                              21 Fevrier 2018
-                            </td>
-
-                          
-
-                        </tr>
-
-                        </tr>
-                        <tr>
-                            <td>Sam Neri</td>
-                            <td>Activation du compte</td>
-                            <td>
-                           23 fevrier 2018
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>Jooble</td>
-                            <td>5 nouvelles offres du 23-02-2018 - Étudiant temps partiel, Gatineau, QC</td>
-                            <td>
-                       22 Fevrier 2018
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>Daouda</td>
-                            <td> 
-                              30+ nouveaux emplois Job Etudiant - Hull, QC</td>
-                            <td>            
-                       22 Fevrier 2018
-                            </td>
-                               
-
-                        </tr>
-
-                        <tr>
-                            <td>IBRAHIM</td>
-                            <td>iBRAHIM@GMAIL.COM</td>
-                            <td>
-                              21 Fevrier 2018
-                            </td>
-
-                          
-
-                        </tr>
-                    </table>
-      </div>
-
-
-     </section>
-
-
-
-     <footer>
-      <p>Copyright 2018</p>
-
-
-     </footer>
-
-
-     <script type="text/javascript" src="courriel.js"/></script>
-    </body>
-    </html>
-
-
+		</div>
+	</header>
+	
+	<!--  Volet de gauche qui contient les menus: Messages envoyés, 
+	       message reçus, contacts,etc.-->
+	   <nav id="navl">
+			<ul>
+				<li onclick="chargerMessagesRecus(); AfficherActionsMsg();"><a href="#">Message reçus</a></li>
+				<li onclick="chargerMessagesEnvoyes(); AfficherActionsMsg();"><a href="#">Messages envoyés</a></li>
+				<li onclick="chargeContacts(); AfficherActionsContact();"><a href="#">Contacts</a></li>
+			</ul>
+		</nav>	
+		
+	<!-- Le contenu principal-->	
+	<div id="main">
+		<div id="menuActions">
+		</div>
+		
+		<main id="center">
+			<script>
+				AfficherActionsMsg();
+				chargerMessagesRecus();
+			</script>
+		</main>
+	</div>
+
+	<div id="footer-wrapper">
+		<footer id="footer"><p>Copyright 2018</p></footer>
+	</div>
+<script type="text/javascript" src="courriel.js">
+</script>
+</body>
+
+</html>
