@@ -34,7 +34,6 @@ header{
 
 
 #navl{
-  float: left;
   width :25%;
   background-color: #EFF8FB ;
   box-shadow: 2px;
@@ -163,6 +162,7 @@ table, td, th {
   width: 100px;margin-top: 20px;
   margin-top: -50px;
   margin-left:1350px;
+  position: fixed;
 }
 
 #search input[type="text"] {
